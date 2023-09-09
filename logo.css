@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+}
+
+.rotate-45 {
+    transform: rotate(45deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+    border-top: 15px #f57369 solid;
+    border-bottom: 15px #68cdf2 solid;
+    border-right: 15px #f5e7d0 solid;
+    border-left: 15px #9df5a1 solid;
+}
+
+.p {
+    transform: rotate(-45deg);
+    padding: 20px;
+    font-size: 25px;
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+}
+
+.span-element {
+    color: #faa96b;
+    font-weight: bold;
+}
+
+.para {
+    transform: rotate(-45deg);
+    padding-left: 78px;
+    font-size: 10px;
+    font-family: "Roboto";
+    color: white;
+
+}
